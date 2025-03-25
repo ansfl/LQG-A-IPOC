@@ -90,9 +90,9 @@ The authors would appreciate users giving stars to this repository and citing ou
 @article{engelsman2025InertialBasedLQG,
   title={Inertial-Based LQG Control: A New Look at Inverted Pendulum Stabilization},
   author={Engelsman, Daniel and Klein, Itzik},
-  journal={arXiv preprint arXiv:2312.12121},
+  journal={arXiv preprint arXiv:2503.18926},
   year={2025}
 }
 ```
 
-[<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ArXiv_web.svg/250px-ArXiv_web.svg.png width=70/>](https://arxiv.org/abs/2312.12121)
+[<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/ArXiv_web.svg/250px-ArXiv_web.svg.png width=70/>](https://arxiv.org/abs/2503.18926)
