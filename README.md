@@ -38,12 +38,12 @@ We analyze the impact of update ratios on observer-controller (KF-LQR) sensitivi
 To enhance our temporal analysis, both variables are normalized by their initial conditions $\dot{x}_0, \dot{\theta}_0$, and then against the normalized time axis. This transformation enhances interpretability, ensuring that all trajectories originate from the light blue sphere at (1,1,1). If stabilization is achieved, they converge to the red sphere at the origin (0,0,0); otherwise, they diverge.  
 
  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 
- <img src="https://github.com/ansfl/LQG-A-IPOC/blob/main/data/Fig_Comp_2.png?raw=true" width="1000" class='center'/>
+ <img src="https://github.com/ansfl/LQG-A-IPOC/blob/main/data/Fig_Comp_3.png?raw=true" width="1000" class='center'/>
 
 Next, we conduct an empirical sensitivity analysis, presenting four response surfaces in a clockwise sequence: (i) final cart position $x(T)$, (ii) final pendulum angle $\theta(T)$, (iii) total control effort $U_{tot}$, and (iv) actuator saturation percentage over time $u_{sat}$.  
 
  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 
- <img src="https://github.com/ansfl/LQG-A-IPOC/blob/main/data/Fig_Comp_3.png?raw=true" width="1000" class='center'/>
+ <img src="https://github.com/ansfl/LQG-A-IPOC/blob/main/data/Fig_Comp_2.png?raw=true" width="1000" class='center'/>
 
 As observed, both models exhibit similar patterns with subtle differences. However, two key aspects reveal significant contrasts. First, the A-IPoC model consistently maintains a larger stability region ${S}_{A-IPoC} > {S}_{IPoC}$. Second, the level sets expand differently, with the IPoC model exhibiting a higher divergence level. These differences suggest that A-IPoC offers greater marginal stability by moderating divergence for the same initial perturbation. Quantitatively, A-IPoC outperforms IPoC, with stability areas 27\%-39\% larger and crash rates 10\%-15\% lower, demonstrating superior disturbance immunity and control resilience.
  
