@@ -87,7 +87,7 @@ File | Purpose | File | Purpose
 
 The authors would appreciate users giving stars to this repository and citing our article as follows:
 ```
-@article{engelsman2025InertialBasedLQG,
+@article{engelsman2025inertial,
   title={Inertial-Based LQG Control: A New Look at Inverted Pendulum Stabilization},
   author={Engelsman, Daniel and Klein, Itzik},
   journal={arXiv preprint arXiv:2503.18926},
