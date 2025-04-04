@@ -49,11 +49,7 @@ As observed, both models exhibit similar patterns with subtle differences. Howev
  
 ## Code
 
-For convenience, both inference and training notebooks are provided, GPU-required.
-
-* **Full Mode** - Full solution pipeline from training to inference. 
-
-* **Test Mode** - Direct inference and comparison between competing models, by uploading pretrained model weights, trained over *single Nvidia T4 GPU*. 
+This work is compatible with MATLAB 2019 and later versions, requires no additional packages, and is organized as follows :
 
 ### Directory tree
 <pre>
